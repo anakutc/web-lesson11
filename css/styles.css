@@ -236,7 +236,7 @@ left: 30px;
 
 .section2{
   width: 100%;
-  height: 1385px;
+  height: max-content;
   background-color: #FF7420;
 }
 
@@ -320,4 +320,48 @@ border-bottom: 2px solid #191A19;
   font-size: 35px;
   }
 
+  }
+
+  .buildings-wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    
+  }
+
+  .towers img{
+    width: 100%;
+    max-width: 485px;
+  }
+
+  .textes{
+    position: absolute;
+    top: 83%;
+    
+  }
+
+
+
+  @media (max-width:1024px){
+    .towers img{
+    max-width: 300px;
+  }
+
+  
+  }
+
+  @media (max-width:748px){
+    .towers img{
+      max-width: 250px;
+    }
+
+    .buildings-wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+   
+  }
   }
