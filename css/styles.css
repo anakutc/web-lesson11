@@ -546,6 +546,7 @@ border-bottom: 2px solid #191A19;
 
   .right-div, .left-div {
     width: 300px; 
+    height: max-content;
   }
 
   .section4-title {
