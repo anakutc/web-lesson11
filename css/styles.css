@@ -421,3 +421,82 @@ border-bottom: 2px solid #191A19;
       max-width: 400px;
     }
   }
+
+  .section4{
+    background-color: #191A19;
+  }
+
+ 
+
+  .section4-div-wrapper{
+    display: flex;
+  gap: 10px;
+  align-items: stretch;
+  }
+
+  .right-div, .left-div{
+    background-color: #FF7420;
+    padding: 40px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    min-height: 200px;
+  }
+
+  .section4-title{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 100%;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+
+  .submit-button, .contact-button {
+  background-color: #191A19; 
+  color: white;
+  border: none;
+  padding: 15px;
+  width: 100%;
+  border-radius: 15px;
+  font-weight: 400;
+  font-size: 20px;
+  cursor: pointer;
+
+}
+
+.headline{
+  font-weight: 400;
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.info{
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 16px;
+ 
+}
+
+.section4-desc{
+  padding-bottom:10px;
+}
+
+.contacts input,
+.contacts select,
+.contacts textarea {
+  width: 220px;
+  padding: 18px;
+  margin: 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  color: #191A19;
+  background-color: #FFFFFF;
+}
+
+.contacts textarea{
+  resize: none;
+  height: 150px;
+  width: 100%;
+}
