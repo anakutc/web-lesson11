@@ -497,8 +497,8 @@ border-bottom: 2px solid #191A19;
 
 .contacts textarea{
   resize: none;
-  height: 150px;
-  width: 100%;
+  height: 130px;
+  width: 450px;
 }
 
 
@@ -531,5 +531,38 @@ border-bottom: 2px solid #191A19;
   resize: none;
   height: 100px;
   width: 250px;
+}
+}
+
+
+@media (max-width: 748px){
+  
+
+  .section4-div-wrapper { 
+    flex-direction: column;
+    gap: 10px;
+
+  }
+
+  .right-div, .left-div {
+    width: 500px; 
+  }
+
+  .section4-title {
+    font-size: 23px;
+    margin-bottom: 20px;
+  }
+
+   .submit-button, .contact-button{
+    width: 200px;
+  font-weight: 300;
+  font-size: 10px;
+
+   }
+
+   .contacts textarea{
+  resize: none;
+  height: 80px;
+  width: 150px;
 }
 }
