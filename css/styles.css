@@ -545,8 +545,9 @@ border-bottom: 2px solid #191A19;
   }
 
   .right-div, .left-div {
-    width: 205px; 
+    width: 240px; 
     height: max-content;
+    margin-left: 10px;
   }
 
   .section4-title {
@@ -555,7 +556,7 @@ border-bottom: 2px solid #191A19;
   }
 
    .submit-button, .contact-button{
-    width: 150px;
+    width: 180px;
   font-weight: 300;
   font-size: 10px;
 
@@ -564,14 +565,15 @@ border-bottom: 2px solid #191A19;
    .contacts textarea{
   resize: none;
   height: 80px;
-  width: 150px;
+  width: 180px;
 }
 
 .contacts input,
 .contacts select,
 .contacts textarea {
-  width: 120px;
+  width: 180px;
   padding: 13px;
   margin: 7px;
   font-size: 15px;
+}
 }
