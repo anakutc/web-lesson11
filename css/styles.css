@@ -500,3 +500,36 @@ border-bottom: 2px solid #191A19;
   height: 150px;
   width: 100%;
 }
+
+
+@media (max-width: 1024px){
+  
+
+  .section4-div-wrapper { 
+    gap: 10px;
+
+  }
+
+  .right-div, .left-div {
+    width: 300px; 
+  }
+
+  .section4-title {
+    font-size: 28px;
+    margin-bottom: 30px;
+  }
+
+   .submit-button, .contact-button{
+    width: 300px;
+  border-radius: 15px;
+  font-weight: 300;
+  font-size: 15px;
+
+   }
+
+   .contacts textarea{
+  resize: none;
+  height: 100px;
+  width: 250px;
+}
+}
