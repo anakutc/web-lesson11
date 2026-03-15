@@ -108,7 +108,7 @@ border-bottom: 2px solid #FF7420;
 }
 
 .logo img{
- max-width: 180px;
+ max-width: 130px;
 }
 
 .burger-menu{
@@ -210,7 +210,7 @@ left: 40px;
 
 @media (max-width: 744px){
   .title{
-    font-size: 30px;
+    font-size: 25px;
   }
 
   .text{
@@ -218,19 +218,19 @@ left: 40px;
   }
 
   .onpic1{
-    width: 130px;
-    height: 50px;
+    width: 110px;
+    height: 45px;
   }
 
   .onpic{
-    width: 110px;
-    height: 50px;
+    width: 100px;
+    height: 40px;
   }
 
   .text-wrapper{
   
-  top: 20%;
-left: 30px;
+  top: 15%;
+left: 25px;
 }
 }
 
@@ -440,6 +440,7 @@ border-bottom: 2px solid #191A19;
     border-radius: 20px;
     color: #FFFFFF;
     min-height: 200px;
+    
   }
 
   .section4-title{
@@ -447,7 +448,7 @@ border-bottom: 2px solid #191A19;
     font-weight: 600;
     font-size: 64px;
     line-height: 100%;
-    align-items: center;
+    text-align: center;
     margin-bottom: 50px;
   }
 
@@ -464,11 +465,19 @@ border-bottom: 2px solid #191A19;
 
 }
 
+.submit-button{
+  margin-top: 10px;
+}
+
+.contact-button{
+  margin-top: 47px;
+}
+
 .headline{
   font-weight: 400;
   font-size: 20px;
   color: #FFFFFF;
-  margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .info{
@@ -476,6 +485,18 @@ border-bottom: 2px solid #191A19;
   font-weight: 300;
   font-size: 16px;
  
+}
+
+.info-container{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.contact-info{
+  font-weight: 500;
+  font-size: 24px;
+  padding-bottom: 38px;
 }
 
 .section4-desc{
@@ -498,7 +519,7 @@ border-bottom: 2px solid #191A19;
 .contacts textarea{
   resize: none;
   height: 130px;
-  width: 450px;
+  width: 500px;
 }
 
 
@@ -542,13 +563,15 @@ border-bottom: 2px solid #191A19;
   .section4-div-wrapper { 
     flex-direction: column;
     gap: 10px;
-
+    justify-content: center;
+    align-items: center;
   }
 
   .right-div, .left-div {
-    width: 220px; 
-    height: max-content;
+    width: 270px; 
+    height: 500px;
     margin-left: 10px;
+    
   }
 
   .section4-title {
@@ -557,7 +580,7 @@ border-bottom: 2px solid #191A19;
   }
 
    .submit-button, .contact-button{
-    width: 180px;
+    width: 240px;
   font-weight: 300;
   font-size: 10px;
   
@@ -572,9 +595,105 @@ border-bottom: 2px solid #191A19;
 .contacts input,
 .contacts select,
 .contacts textarea {
-  width: 180px;
+  width: 190px;
   padding: 13px;
   margin: 7px;
   font-size: 15px;
 }
+}
+
+.footer-wrapper{
+  width: 100%;
+  height: 359px;
+  background-color: #191A19;
+  color: #FFFFFF;
+  
+  }
+
+  .footer-header{
+    padding-top: 53px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .newsletter-wrapper label{
+    font-weight: 400;
+    font-size: 20px;
+  }
+
+  .newsletter-wrapper input {
+    background-color: transparent;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    
+  }
+
+  .footer-section{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+    margin-top: 29px;
+  }
+
+  .footer-contact{
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 14px;
+  }
+
+  .footer-descr{
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 24px;
+  }
+
+
+  @media (max-width: 748px){
+
+    .footer-wrapper{
+      height: max-content;
+    }
+   .footer-logo{
+    max-width: 180px;
+    height: 18px;
+    padding-right: 28px;
+    padding-left: 25px;
+   }
+
+   .newsletter-wrapper input {
+    font-size: 10px;
+    
+  }
+
+  .newsletter-wrapper label{
+    font-size: 15px;
+  }
+
+  .footer-contact{
+
+    font-size: 30px;
+    padding-bottom: 14px;
+  }
+
+  .footer-descr{
+    
+    font-size: 15px;
+    margin-bottom: 24px;
+  }
+
+  .ul-li{
+    display: none;
+  }
+
+  .footer-section{
+    flex-direction: column;
+    align-items: start;
+    padding-left: 25px;
+  }
+
+  .logos{
+    padding-left: 20px;
+  }
 }
